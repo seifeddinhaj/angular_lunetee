@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img src="https://bcassetcdn.com/asset/logo/bd3804e3-25c5-457d-a968-6ec10dcaf719/logo?v=4&text=Queen+bee+vision" width="5%">
+  <a class="navbar-toggler" href="Queen bee vision.html">QUEEN BEE VISION</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+              <li class="nav-item">
+                      <a class="nav-link" [routerLink]="['home']" routerLinkActive="active" >accueil</a>
+                    </li>
+              <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        lunettes
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" [routerLink]="['lunette_solaire']" routerLinkActive="active">lunettes solaires</a>
+                      
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" [routerLink]="['cadres_optiques']" routerLinkActive="router-link-active" >cadres optiques</a>
+                        
+                      </div>
+                    </li>
+      
+        <a class="nav-link" href="conseils pratiques.html">conseils pratiques <span class="sr-only">(current)</span></a>
+    
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="rechercher" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">rechercher</button>
+    </form>
+  </div>
+</nav>
